@@ -1,5 +1,5 @@
 /*Nama File     : MMahasiswa.java
-  Deskripsi     : berisi atribut dan method dalam class Dosen
+  Deskripsi     : berisi atribut dan method dalam class Mahasiswa
   Pembuat       : Annis Fakhiroh Akbar (24060124130110)
   Lab           : C1
   Tanggal       : 5 Maret 2026 */
