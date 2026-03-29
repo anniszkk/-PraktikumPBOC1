@@ -2,7 +2,7 @@
   Deskripsi     : berisi atribut dan method dalam class BangunDatar
   Pembuat       : Annis Fakhiroh Akbar (24060124130110)
   Lab           : C1
-  Tanggal       : 13 Maret 2026 */
+  Tanggal       : 26 Maret 2026 */
 
 public class MBangunDatar {
     public static void main(String[] args) {
