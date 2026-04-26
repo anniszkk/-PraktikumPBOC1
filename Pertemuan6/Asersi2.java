@@ -34,15 +34,15 @@ public class Asersi2 {
     }
 }
 
-//Secara konsep, terdapat kesalahan dalam kode di atas. 
-//Saat kode dijalankan, jika jariJari di assign dengan nilai 0 maka program akan tetap berjalan tanpa menghasilkan error, namun hasil perhitungan keliling lingkaran akan menjadi 0.
-//Hal ini tidak sesuai dengan asersi yang telah didefinisikan pada kode tersebut, dimana jariJari tidak boleh bernilai nol.
-//Karena saat eksekusi kode, harus mengaktifkan asersi, maka perlu menambahkan -ea pada saat eksekusi program.
-//Sehingga, jika jariJari di assign dengan nilai 0, maka program akan berhenti dan menghasilkan error dengan pesan "Jari-jari tidak boleh nol".
-//Solusi dari kesalahan konsep tersebut adalah penggunaan if else statement untuk mengecek nilai jariJari sebelum membuat objek lingkaran. 
-//Hal ini akan lebih memudahkan user, karena tidak perlu mengaktifkan asersi pada saat eksekusi program.
-//Contoh perbaikan kodenya adalah sebagai berikut:
-//public class Asersi2 {
+// Secara konsep, terdapat kesalahan dalam kode di atas. 
+// Saat kode dijalankan, jika jariJari di assign dengan nilai 0 maka program akan tetap berjalan tanpa menghasilkan error, namun hasil perhitungan keliling lingkaran akan menjadi 0.
+// Hal ini tidak sesuai dengan asersi yang telah didefinisikan pada kode tersebut, dimana jariJari tidak boleh bernilai nol.
+// Karena saat eksekusi kode, harus mengaktifkan asersi, maka perlu menambahkan -ea pada saat eksekusi program.
+// Sehingga, jika jariJari di assign dengan nilai 0, maka program akan berhenti dan menghasilkan error dengan pesan "Jari-jari tidak boleh nol".
+// Solusi dari kesalahan konsep tersebut adalah penggunaan if else statement untuk mengecek nilai jariJari sebelum membuat objek lingkaran. 
+// Hal ini akan lebih memudahkan user, karena tidak perlu mengaktifkan asersi pada saat eksekusi program.
+// Contoh perbaikan kodenya adalah sebagai berikut:
+// public class Asersi2 {
 //     public static void main(String[] args) {
 //         double jariJari = 0;
 //         if (jariJari > 0) {
